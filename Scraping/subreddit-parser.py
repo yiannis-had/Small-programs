@@ -4,7 +4,7 @@ import praw
 import urllib
 
 reddit = praw.Reddit(
-    client_id='CLIENT_ID', client_secret=CLIENT_SECRET', user_agent='APP_NAME', username='USERNAME', password='PASSWORD'
+    client_id='CLIENT_ID', client_secret='CLIENT_SECRET', user_agent='APP_NAME', username='USERNAME', password='PASSWORD'
     )
 
 DOWNLOADS_DIR = 'subreddit-pictures/'
